@@ -19,6 +19,8 @@ lattice = {"start":"NFF",
            "rules":{"F":"F+F++","N":"-+NFF","L":"[[]]FLL-FFF"},"a":60,"iter":10}
 curl = {u'a': 45, u'iter': 12, 
         u'rules': {u'F': u'TFFT', u'G': u'[-F]-', u'T': u'[---]-'}, u'start': u'FTT', u'wiggly': True}
+hexaflower = {'start': 'VV', 'a': 60, 'iter': 8, 
+              'rules': {'F': '++F---', 'V': 'VVF[+]V'}}
 parquetblob = {
     u'a': 90,
     u'iter': 7,
